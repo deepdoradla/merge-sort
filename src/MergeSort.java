@@ -83,7 +83,7 @@ public class MergeSort extends Thread{
 
     @Override
     public void run() {
-        int A[] = new int[100000];
+        int A[] = new int[10];
         //Fill elements in to the array
         fillArray(A);
         //Print elements before sort
@@ -101,7 +101,7 @@ public class MergeSort extends Thread{
     {
         for(int i=0; i<A.length; i++)
         {
-            A[i] = (int) (Math.random()*1000000);
+            A[i] = (int) (Math.random()*100);
         }
 
         return A;
